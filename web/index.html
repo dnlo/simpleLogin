@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <form method="post" action="/login">
+        <table>
+            <tr>
+                <td><label for="name">User name</label></td>
+                <td><input type="text" name="name" required="required"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="password" required="required"></td>
+            </tr>
+        </table>
+        <button type="submit">Login</button>
+        <button type="button" onclick="window.location.href='registration.html'">Register</button>
+    </form>
+</body>

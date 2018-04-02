@@ -1,0 +1,5 @@
+package: simpleLogin
+import:
+  - package: github.com/asdine/storm/q
+  - package: golang.org/x/crypto/bcrypt
+  - package: github.com/asdine/storm
