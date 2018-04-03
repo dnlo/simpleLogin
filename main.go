@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 	"log"
-	"simpleLogin/handlers"
-	"simpleLogin/db"
+	"github.com/dnlo/web/simpleLogin/handlers"
+	"github.com/dnlo/web/simpleLogin/db"
 )
 
 func main() {
